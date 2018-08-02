@@ -1,0 +1,32 @@
+.main-content {
+  padding: 80px 0;
+  width: 100%;
+  position: relative;
+}
+
+.main-content__title {
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.main-content__content {
+  display: flex;
+  justify-content: center;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__news {
+  flex-grow: 1;
+}
+
+.test-input {
+  margin: 0 5px 5px 0;
+}

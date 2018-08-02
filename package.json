@@ -1,14 +1,21 @@
 {
-  "name": "redux-ru-tutorial",
-  "version": "1.0.0",
-  "description": "Redux RU tutorial",
-  "main": "index.html",
-  "scripts": {
-    "start": "node server.js"
+  "name": "my-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
   },
   "author": "Nastya Igosheva",
-  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
   "devDependencies": {
-    "express": "^4.14.0"
+    "prop-types": "^15.6.2"
   }
 }

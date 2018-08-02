@@ -1,0 +1,6 @@
+.news {
+  flex-grow: 1;
+  margin-right: 50px;
+  width: 100%;
+  max-width: 500px;
+}
